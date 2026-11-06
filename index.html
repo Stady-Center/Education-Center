@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduNext — learn new skills, grow your confidence, and move your future forward.">
+  <title>EduNext | Learning Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">E</span> edu<span>next</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#programs">Programs</a></li><li><a href="#about">About</a></li><li><a href="#instructors">Instructors</a></li><li><a href="#contact">Contact</a></li>
+        <li><a class="nav-cta" href="#register">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> YOUR FUTURE STARTS HERE</p>
+          <h1>Learn today.<br><em>Lead tomorrow.</em></h1>
+          <p class="hero-copy">Build real-world skills with practical courses, supportive instructors, and a learning path designed around your goals.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#programs">Explore Programs <span>→</span></a><a class="watch-link" href="#about"><span class="play">▶</span> Discover EduNext</a></div>
+          <div class="hero-stats"><div><strong>25+</strong><span>Learning paths</span></div><div><strong>1.2k</strong><span>Students inspired</span></div><div><strong>12</strong><span>Expert mentors</span></div></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-blob"></div>
+          <img class="hero-photo" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=85" alt="Students learning together">
+          <div class="floating-card"><span class="floating-icon">✦</span><div><strong>Keep growing</strong><small>One lesson at a time</small></div></div>
+          <div class="floating-badge">LEARN<br><strong>ANYWHERE</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div class="container trust-inner"><span>LEARN WITH PURPOSE</span><b>DESIGN</b><b>TECHNOLOGY</b><b>BUSINESS</b><b>CREATIVITY</b></div></section>
+
+    <section class="programs section-pad" id="programs">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">FIND YOUR NEXT STEP</p><h2>Explore our <em>programs.</em></h2></div><p>Practical learning experiences to help you discover your strengths and build skills that matter.</p></div>
+        <div class="filter-row" role="group" aria-label="Filter courses"><button class="filter-btn active" data-filter="all">All programs</button><button class="filter-btn" data-filter="technology">Technology</button><button class="filter-btn" data-filter="business">Business</button><button class="filter-btn" data-filter="design">Design</button></div>
+        <div class="course-grid">
+          <article class="course-card" data-category="technology"><div class="course-image tech"><span>TECHNOLOGY</span><b>01</b></div><div class="course-body"><div class="course-meta"><span>8 WEEKS</span><span>BEGINNER</span></div><h3>Web Development</h3><p>Learn the foundations of HTML, CSS, and JavaScript by building real projects.</p><div class="course-bottom"><strong>Explore course</strong><a href="#register" aria-label="Register for Web Development">↗</a></div></div></article>
+          <article class="course-card" data-category="business"><div class="course-image business"><span>BUSINESS</span><b>02</b></div><div class="course-body"><div class="course-meta"><span>6 WEEKS</span><span>ALL LEVELS</span></div><h3>Business Essentials</h3><p>Understand planning, communication, and the basics of building a business.</p><div class="course-bottom"><strong>Explore course</strong><a href="#register" aria-label="Register for Business Essentials">↗</a></div></div></article>
+          <article class="course-card" data-category="design"><div class="course-image design"><span>CREATIVE DESIGN</span><b>03</b></div><div class="course-body"><div class="course-meta"><span>5 WEEKS</span><span>BEGINNER</span></div><h3>Graphic Design</h3><p>Explore visual storytelling, layout, color, and the principles of good design.</p><div class="course-bottom"><strong>Explore course</strong><a href="#register" aria-label="Register for Graphic Design">↗</a></div></div></article>
+        </div>
+        <p class="course-note">Sample programs for this website concept. Replace the details with the center's real courses.</p>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1000&q=85" alt="Students collaborating in a classroom"><div class="about-stamp"><strong>Grow</strong><span>with confidence</span></div></div>
+        <div class="about-copy"><p class="eyebrow">A BETTER WAY TO LEARN</p><h2>Small steps.<br><em>Big possibilities.</em></h2><p>EduNext is a learning center built around curiosity, practical experience, and personal growth. We make learning approachable and help students turn knowledge into action.</p><ul class="check-list"><li>Practical, project-based lessons</li><li>Supportive instructors and mentors</li><li>Flexible learning paths for different goals</li></ul><a class="button button-primary" href="#register">Start your journey <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="steps section-pad"><div class="container"><div class="center-heading"><p class="eyebrow">YOUR LEARNING JOURNEY</p><h2>How it <em>works.</em></h2><p>Getting started is simple. Choose a direction and we'll help you take the next step.</p></div><div class="steps-grid"><article><span>01</span><h3>Choose a program</h3><p>Find a course that matches your interests and goals.</p></article><article><span>02</span><h3>Learn by doing</h3><p>Build confidence through practical lessons and projects.</p></article><article><span>03</span><h3>Grow your future</h3><p>Use your new skills to move toward your next opportunity.</p></article></div></div></section>
+
+    <section class="instructors section-pad" id="instructors"><div class="container"><div class="section-heading"><div><p class="eyebrow">PEOPLE WHO SUPPORT YOU</p><h2>Meet your <em>mentors.</em></h2></div><p>Learn with people who care about your progress and bring real experience into every lesson.</p></div><div class="mentor-grid"><article><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=85" alt="Instructor working with students"><h3>Learning Team</h3><p>Technology & Digital Skills</p></article><article><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=85" alt="Professional instructor"><h3>Business Mentors</h3><p>Business & Communication</p></article><article><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=700&q=85" alt="Creative instructor"><h3>Creative Mentors</h3><p>Design & Creativity</p></article></div></div></section>
+
+    <section class="register section-pad" id="register"><div class="container register-grid"><div><p class="eyebrow">TAKE THE FIRST STEP</p><h2>Ready to move<br><em>forward?</em></h2><p>Tell us a little about yourself and the program you're interested in. Our team can follow up with the next steps.</p><div class="contact-mini"><span>✉</span> hello@edunext.example</div></div><form class="register-form" id="registerForm"><h3>Join the next learning journey</h3><label>Full name<input name="name" type="text" placeholder="Your name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" required></label><label>Program of interest<select name="program" required><option value="">Choose a program</option><option>Web Development</option><option>Business Essentials</option><option>Graphic Design</option></select></label><label>Your message<textarea name="message" rows="3" placeholder="Tell us about your goals (optional)"></textarea></label><button class="button button-primary" type="submit">Send registration request →</button><p class="form-message" id="formMessage" aria-live="polite"></p><small>Demo form: connect it to an email or registration service before accepting real applications.</small></form></div></section>
+  </main>
+
+  <footer class="footer" id="contact"><div class="container footer-grid"><div><a class="brand" href="#home"><span class="brand-mark">E</span> edu<span>next</span></a><p>Learn today. Lead tomorrow.</p></div><div><h3>Explore</h3><a href="#programs">Programs</a><a href="#about">About us</a></div><div><h3>Contact</h3><p>hello@edunext.example</p><p>Alexandria, Egypt</p></div><div><h3>Follow your curiosity</h3><p>New skills. New ideas. New possibilities.</p></div></div><div class="container footer-bottom"><span>© <span id="year"></span> EduNext. Website concept by NUVORA.</span><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
